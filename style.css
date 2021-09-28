@@ -1,0 +1,75 @@
+
+body {
+    background-color: #E5E5E5;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex {
+    display: flex; 
+}
+
+
+.flex h1 {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.flex .border {
+    border-bottom: 4px solid#D89616;
+    width: 50px;
+    margin: auto;
+}
+
+.flex p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contact {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color:#ffffff ;
+    box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25) ;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 10rem;
+}
+
+.contact h1{
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.contact input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0d0c0c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact .message {
+    width: 663px;
+    height: 160px;
+    padding: 0px;
+}
+
+button {
+    background-color:  rgba(0, 77, 230, 0.76);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 1rem 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 20rem;
+  
+}
+
